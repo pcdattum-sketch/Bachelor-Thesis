@@ -1,0 +1,32 @@
+python via jupyter notebook
+
+#API for features_extraction repo
+earthengine-api
+folium
+pandas
+numpy
+geopandas
+rasterio
+matplotlib
+seaborn
+python-dotenv
+
+#API for predictors repo 
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+shap
+
+#API for scripts repo
+pandas
+numpy
+scikit-learn
+scipy
+geopandas
+matplotlib
+seaborn
+shap
+python-dotenv
+-e ../predictor
