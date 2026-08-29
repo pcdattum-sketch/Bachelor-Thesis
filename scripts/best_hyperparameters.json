@@ -1,0 +1,24 @@
+{
+  "_comment": "Final hyperparameters used to deploy each model per feature set for test-set evaluation in the thesis. Each value is the winner of that model's Stage-2 full-train_val search (see predictor/*.py and this repo's search_runner.py) after iterative range-narrowing done interactively during the original notebook work -- this file records only the final result, not the narrowing history.",
+  "lasso": {
+    "Baseline": {"alpha": 0.020456},
+    "A": {"alpha": 0.00018119},
+    "B": {"alpha": 0.027464},
+    "C": {"alpha": 0.0013669},
+    "All": {"alpha": 0.0082583}
+  },
+  "random_forest": {
+    "Baseline": {"max_depth": 17, "max_features": 5, "min_samples_leaf": 2, "min_samples_split": 5, "n_estimators": 401},
+    "A": {"max_depth": 9, "max_features": 7, "min_samples_leaf": 17, "min_samples_split": 8, "n_estimators": 547},
+    "B": {"max_depth": 25, "max_features": 2, "min_samples_leaf": 1, "min_samples_split": 14, "n_estimators": 311},
+    "C": {"max_depth": 13, "max_features": 18, "min_samples_leaf": 13, "min_samples_split": 7, "n_estimators": 1171},
+    "All": {"max_depth": 12, "max_features": 23, "min_samples_leaf": 2, "min_samples_split": 6, "n_estimators": 181}
+  },
+  "gradient_boosting": {
+    "Baseline": {"learning_rate": 0.05821692424143574, "max_depth": 22, "max_features": 4, "min_samples_leaf": 1, "min_samples_split": 9, "n_estimators": 558, "subsample": 0.8578208907576366},
+    "A": {"learning_rate": 0.006635675437865671, "max_depth": 10, "max_features": 4, "min_samples_leaf": 15, "min_samples_split": 21, "n_estimators": 236, "subsample": 0.604917796186026},
+    "B": {"learning_rate": 0.012322271998306223, "max_depth": 2, "max_features": 1, "min_samples_leaf": 3, "min_samples_split": 24, "n_estimators": 394, "subsample": 0.5054687859307989},
+    "C": {"learning_rate": 0.014649216978367668, "max_depth": 6, "max_features": 6, "min_samples_leaf": 7, "min_samples_split": 5, "n_estimators": 359, "subsample": 0.3305969168359141},
+    "All": {"learning_rate": 0.025032529370778874, "max_depth": 14, "max_features": 22, "min_samples_leaf": 5, "min_samples_split": 5, "n_estimators": 1101, "subsample": 0.6043574493366856}
+  }
+}
