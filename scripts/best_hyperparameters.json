@@ -1,5 +1,5 @@
 {
-  "_comment": "Final hyperparameters used to deploy each model per feature set for test-set evaluation in the thesis. Each value is the winner of that model's Stage-2 full-train_val search (see predictor/*.py and this repo's search_runner.py) after iterative range-narrowing done interactively during the original notebook work -- this file records only the final result, not the narrowing history.",
+  "_comment": "Final hyperparameters used to deploy each model per feature set for test-set evaluation in the thesis. This file records only the final result, not the narrowing history.",
   "lasso": {
     "Baseline": {"alpha": 0.020456},
     "A": {"alpha": 0.00018119},
