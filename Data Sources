@@ -1,0 +1,5 @@
+mkdir foldername
+# add a file into it
+git add foldername
+git commit -m "Add foldername"
+git push
