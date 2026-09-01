@@ -5,6 +5,6 @@ The purpose for these codes are to show the logic behind each steps taken in thi
 
 Link to the codes: https://github.com/pcdattum-sketch/Bachelor-Thesis/releases/tag/raw-codes
 
-Session 6, 7, 9, and 16 are features_extraction
-Session 15 defines the models
-Main pipeline represents the script
+- Session 6, 7, 9, and 16 are features_extraction
+- Session 15 defines the models
+- Main pipeline represents the script
